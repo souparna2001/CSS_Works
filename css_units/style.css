@@ -1,0 +1,66 @@
+.parent{
+    width:300px;
+    height:300px;
+    background-color:hotpink;
+    color:black;
+}     
+
+.row{
+    width:70%;
+    height:500px;
+    background-color: aqua;
+}
+
+
+.col{
+    width:200px;;
+    height:300;
+    background:springgreen;
+}
+
+.col-1{
+     width:9vw;
+     height:300px;
+     background-color:blueviolet
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                          
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,62 @@
+.row{
+    width: 50%;
+    height:400px;
+    background-color:violet;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col1{
+    width: 150px;
+    height: 70px;
+    background-color: black;
+    position: absolute;
+    left: 40%;
+    top: 0;
+    border: 1px solid pink; 
+}
+.col2{
+    width: 150px;
+    height: 70px;
+    background-color: black;
+    position: absolute;
+    left: 40%;
+    bottom: 0;
+    border: 1px solid pink; 
+}
+.col3{
+    width: 150px;
+    height: 70px;
+    background-color: black;
+    position: absolute;
+    right: 0;
+    top: 40%;   
+    border: 1px solid pink; 
+}
+.col4{
+    width: 150px;
+    height: 70px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 40%;   
+    border: 1px solid pink; 
+}  
+
+.fixed{
+    width:200px;
+    height:200px;
+    right:0;
+    top:10;
+    position:fixed;
+    background-color:purple;
+
+}
+
+.sticky{
+    width:200px;
+    height:200px;
+    background-color: green;
+    position:sticky;
+    top:5%;
+}

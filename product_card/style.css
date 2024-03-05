@@ -1,0 +1,46 @@
+.row{
+    width: 40%;
+    height: 400px;
+    background-color:white;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top:8%;
+    
+    
+}
+.col{
+    width: 49%;
+    height:400px ;
+    background-color: white; 
+    float: left;
+    border: 1px solid black;
+    text-align: center;
+}
+.card-image{
+    width: 110%;
+    height: 400px;
+
+}
+.second{
+    color:gray;
+}
+.bottom{
+    position: absolute;
+    top: 76%;
+    right: 5%;
+    left: 50%;
+}
+.center{
+    position: absolute;
+    top:40% ;
+    right: 7%;
+    left: 58%;
+    text-align: left;
+    color:black
+}
+.button{ 
+    color: black;
+    left:60%;
+    background-color: burlywood;
+}

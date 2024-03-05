@@ -1,0 +1,26 @@
+.card{
+    width: 30%;
+    min-height: 500px;
+    border: 1px solid black;
+    background-color:powderblue;
+    float: left;
+}
+
+
+.card-image{
+    width: 100%;
+    height: 450px;
+
+}
+
+.card h1{
+    text-align:center;
+    text-decoration:underline;
+    text-decoration-color:rebeccapurple;
+    color:rebeccapurple;
+}    
+
+.card-item{
+    width: 200px;
+}
+    

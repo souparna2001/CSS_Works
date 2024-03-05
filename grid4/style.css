@@ -1,0 +1,70 @@
+body{
+    background-color:darkslategray;
+}
+
+.row{
+    width:60%;
+    height: 700px;
+    background-color: darkslategray;
+    display:grid;
+    grid-template-columns:0.7fr 1fr 1fr;
+    grid-template-rows:0.7fr 1fr 1fr 0.7fr;
+    grid-gap:10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px;
+    padding: 10px;
+}
+
+.col{
+    border:10px solid black;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    color: white;
+}
+
+
+.row :nth-child(1){
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 2%);
+    grid-column-start:1;
+    grid-column-end:4;
+}  
+
+
+.row :nth-child(2){
+    background-color:aqua;
+    grid-row-start:2;
+    grid-row-end:4;
+}
+
+.row :nth-child(3){
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 32%, #b450c8 95%, #FFCC70 100%);
+    grid-column-start:2;
+    grid-column-end:4;
+}
+
+.row :nth-child(4){
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 32%, #b450c8 95%, #FFCC70 100%);
+ 
+    
+}
+
+.row :nth-child(5){
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 32%, #b450c8 95%, #FFCC70 100%);
+
+    
+} 
+
+.row :nth-child(6){
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 2%);
+    grid-column-start:1;
+    grid-column-end:4;
+}
+
+

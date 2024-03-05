@@ -1,0 +1,28 @@
+.row{
+    width:70%;
+    height:400px;
+    background-color:burlywood;
+    display:flex;
+    /* justify-content:space-between; */
+    /* justify-content:space-around; */
+    justify-content:space-evenly;
+    /* justify-content:flex-end; */
+    /* align-items:flex-end; */
+    align-items:center;
+    
+}
+
+.col
+{
+    width:200px;
+    height:150px;
+    background-color:teal;
+    border:1px solid black;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:100vh;
+}
